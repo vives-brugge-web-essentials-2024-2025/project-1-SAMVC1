@@ -1,0 +1,259 @@
+body {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fcfcfc;
+    font-family: Arial, sans-serif;
+    color: rgb(1, 1, 53);
+    font-size: 16PX;
+}
+
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+header {
+    background: url('images/header-img6.webp') no-repeat center;
+    background-size: cover;
+    background-position: center;
+    image-rendering: auto;  
+    height: 10vh;
+    color: rgb(241, 244, 242);
+    padding: 60px 20px;
+    -webkit-text-stroke: 1.05px rgb(15, 16, 15);
+    background-position: fixed;
+    
+    
+
+}
+
+header h1, header p {
+    margin: 0;
+    
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(131, 151, 79);
+    color: white;
+}
+
+.navigation ul li {
+    margin:  15px;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navigation ul li a:hover {
+    color: #94b171;
+}
+
+.iot-examples {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.iot-examples div {
+    width: 30%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.iot-examples img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#contact {
+    background: url('images/aula.png') no-repeat center center;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    background-color: #c6e5f8;
+    border-radius: 8px;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+.input-group img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+footer {
+    background-color: rgb(132, 236, 181);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-container {
+    max-width: 900px;
+    margin: auto;
+   
+}
+
+.icon {
+    width: 16px; 
+    height: 16px; 
+}
+
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr)); 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+textarea {
+
+
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+}
+
+
+
+#climate {
+    background-color: #8b8b42; 
+}
+
+#iot {
+    background-color: #8acbe3; 
+}
+
+#about {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px 20px; /*afstand boven*/
+    background-color: #d7e9d8;
+    border-radius: 8px; /*afronding sectie*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #2C3E50;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+#about .team-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+#climate {
+    padding: 40px;
+    background-color: #f3f3e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+    
+   
+}
+
+#climate h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#climate p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    white-space: pre-line; 
+}
+
+#climate ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+#climate ul li {
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#climate img {
+    border-radius: 10px; 
+    max-width: 100%; 
+   
+}
+
+
